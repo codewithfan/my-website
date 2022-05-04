@@ -1701,7 +1701,10 @@ textarea.form-control {
   height: auto; }
 
 .form-group {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; 
+  display: flex;
+  justify-content: space-around;
+}
 
 .form-text {
   display: block;
@@ -7295,7 +7298,7 @@ button.bg-dark:focus {
   .px-md-4 {
     padding-left: 1.5rem !important; }
   .p-md-5 {
-    padding: 3rem !important; }
+    padding: 1.5rem !important; }
   .pt-md-5,
   .py-md-5 {
     padding-top: 3rem !important; }
@@ -8919,6 +8922,10 @@ h1, h2, h3, h4, h5,
     font-weight: 400;
     color: #fff; }
 
+.ftco-project {
+  padding-bottom: .5em 0;
+}
+
 .ftco-hireme {
   background: #ffbd39;
   z-index: -1; }
@@ -8932,7 +8939,7 @@ h1, h2, h3, h4, h5,
 @media (min-width: 992px) {
   .margin-top {
     margin-top: -70px;
-    padding-top: 10em !important; } }
+    padding-top: .5em !important; } }
 
 .project {
   width: 100%;
@@ -9082,7 +9089,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #000000;
-  padding: 7em 0;
+  padding: 1em 0;
   z-index: 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -9355,6 +9362,11 @@ textarea.form-control {
   .block-6 .media-body p {
     font-size: 16px; }
 
+.block-9 {
+  display: flex;
+  justify-content: space-around;
+}
+
 .block-27 ul {
   padding: 0;
   margin: 0; }
@@ -9375,6 +9387,10 @@ textarea.form-control {
       background: #a0f669;
       color: #fff;
       border: 1px solid transparent; }
+
+#contact-section {
+  padding: .5em 0;
+}
 
 .contact-section .contact-info p a {
   color: #1a1a1a; }
