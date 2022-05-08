@@ -8969,7 +8969,7 @@ h1, h2, h3, h4, h5,
           opacity: 1; }
           .project.img-2 .text span {
             color: rgba(255, 255, 255, 0.8); } }
-  .project .overlay {
+  /* .project .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -9014,7 +9014,7 @@ h1, h2, h3, h4, h5,
   .project:hover .overlay, .project:focus .overlay {
     opacity: .9; }
   .project:hover .text, .project:focus .text {
-    opacity: 1; }
+    opacity: 1; } */
 
 .aside-stretch {
   background: #ffce6c; }
